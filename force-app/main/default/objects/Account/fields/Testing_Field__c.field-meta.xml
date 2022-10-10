@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testing_Field__c</fullName>
+    <externalId>false</externalId>
+    <label>Testing_Field</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Github</fullName>
+                <default>false</default>
+                <label>Github</label>
+            </value>
+            <value>
+                <fullName>VSCode</fullName>
+                <default>false</default>
+                <label>VSCode</label>
+            </value>
+            <value>
+                <fullName>SourceTree</fullName>
+                <default>false</default>
+                <label>SourceTree</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
